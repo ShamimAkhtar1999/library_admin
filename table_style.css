@@ -1,0 +1,104 @@
+
+	thead td
+	{
+		font-size:20px;
+		text-align:center;
+		padding:5px 5px;
+		color:white;
+		background:purple;
+		//border-top:1px black solid ;
+	}
+	thead tr:first-child
+	{
+		border-top:2px black solid;
+		border-bottom:2px black solid;
+	}
+	thead td
+	{
+		border-left:2px black solid;
+	}
+	thead tr, tfoo
+	{
+		border-left:2px black solid;
+		border-right:2px black solid;
+	}
+	
+	table 
+	{
+		//width:50%;
+		border-collapse:collapse;
+	}
+	 
+	table td
+	{
+		//border:1px black solid;
+		//border-left:2px black solid;
+		padding:2px 2px;
+		
+	}
+	
+	.num
+	{
+		text-align:right;
+		
+	}
+	tbody td
+	{
+		text-transform:uppercase;
+		border-left:2px black solid;
+		border-right:2px black solid;
+		//text-align:center;
+		//font:65% black lucida bright;
+		//padding:5px 5px;
+	}
+	tbody tr:nth-child(even)
+	{
+		background:gray;
+		color:white;
+	}
+	tbody tr:first-child
+	{
+		border-top:3px black solid;
+	}
+	tbody tr:last-child
+	{
+		border-bottom:3px black solid;
+	}
+	
+	tfoot td
+	{
+		text-align:center;
+		border-left:2px black solid;
+		border-right:2px black solid;
+		border-bottom:2px black solid;
+	}
+	tfoot
+	{
+		background:purple;
+	}
+	tfoot button
+	{
+		border-style:none;
+		background:#6a18aa;
+		border-radius:10px;
+		text-align:center;
+	}
+	tfoot button a
+	{
+		text-decoration:none;
+		color:white;
+		font-size:25px;
+	}
+	.delete, .delete a, .update, .update a
+	{
+		background:#771fbb;
+		color:white;
+		border-style:none;
+		text-align:center;
+		padding:2px 5px;
+		text-decoration:none;
+	}
+	.delete a:hover, .update a:hover
+	{
+		background:#6a18aa;
+	}

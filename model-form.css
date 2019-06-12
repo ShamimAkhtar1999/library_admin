@@ -1,0 +1,130 @@
+		body
+		{
+			margin:0%;
+		}
+		/*a.show_form:hover
+		{
+			cursor:pointer;
+			background:white;
+		}*/
+		/*main div*/
+		#id01, .main
+		{
+			//border:1px black solid;
+			display:none;
+			height:100%;
+			width:100%;
+			margin:0%;
+			position:absolute;
+			top:0%;
+			//background:gray;
+			/*background-color: rgb(0,0,0);  Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow:auto;
+		}
+		/*form starting*/
+		form.model-form
+		{
+			width:30%;
+			background:white;
+			margin:10% 45% 0% 35%;
+			float:left;
+			transform:scale(0.9);
+			transition:0.3s;
+		}
+		
+		.image-container
+		{
+			height:auto;
+			width:100%;
+			float:left;
+			
+		}
+		
+		img.avatar
+		{
+			height:100px;
+			border-radius:60%;
+			margin:5% 0% 0% 10%;
+			
+		}
+		               /*<!--closemark-->*/
+		span.close:hover, span.close:focus
+		{
+			background:red;
+			//text-decoration:underline;
+			color:white;
+			cursor:pointer;
+		}
+								/*<!--details div-->*/
+		div.details
+		{
+			height:auto;
+			width:90%;
+			margin:0% 5%;
+			text-align:left;
+			font-size:20px;
+		}
+		input.field
+		{
+			height:25px;
+			//min-height:px;
+			width:100%;
+			transition:0.2s all;
+		}
+		input.field:focus
+		{
+			color:blue;
+			border:1px red solid;
+		}
+		.submit
+		{
+			height:30px;
+			width:100%;
+			font-size:20px;
+			background-color: #4CAF50;
+			border:none;
+			//padding:2% 4%;
+			cursor:pointer;
+		}
+		                   /*button_container div*/
+		.bottom_container
+		{
+			height:80px;
+			width:100%;
+			background-color:#f1f1f1;
+			float:left;
+		}
+		.bottom_container button
+		{
+			background:#f44336;
+			padding:5px 10px;
+			font-size:15px;
+			color:white;
+			border:none;
+			position:relative;
+			top:30%;left:5%;
+			margin:0%;
+			float:left;
+		}
+		.bottom_container button:hover
+		{
+			opacity:0.7;
+			cursor:pointer;
+		}
+		
+		.bottom_container span{
+			float:right;
+			position:relative;
+			top:30%;
+			right:5%;
+			font-size:15px;
+		}
+		.bottom_container span a
+		{
+			color:blue;
+		}
+		.show_form:hover
+		{
+			cursor:pointer;
+		}
